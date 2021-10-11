@@ -2,7 +2,6 @@ pipeline {
   agent {
     docker {
       image 'node:12'
-      args '--network mynet'
     }
 
   }
